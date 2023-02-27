@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/APPLE/IdeaProjects/TestNGProjectLastVersion/src/test/java/Tests/US13_14">
+        <classes>
+            <class name="Tests.US13_14.US13Tests">
+                <methods>
+                    <include name="US13_TC01"/>
+                    <include name="US13_TC02"/>
+                    <include name="US13_TC03"/>
+                    <include name="US13_TC04"/>
+                    <include name="US13_TC05"/>
+                    <include name="US13_TC06"/>
+                    <include name="US13_TC07"/>
+                    <include name="US13_TC08"/>
+                </methods>
+            </class>
+            <class name="Tests.US13_14.US14Tests">
+                <methods>
+                    <include name="US14_TC01"/>
+                    <include name="US14_TC02"/>
+                    <include name="US14_TC03"/>
+                    <include name="US14_TC04"/>
+                    <include name="US14_TC05"/>
+                    <include name="US14_TC06"/>
+                    <include name="US14_TC07"/>
+                    <include name="US14_TC08"/>
+                    <include name="US14_TC09"/>
+                    <include name="US14_TC10"/>
+                    <include name="US14_TC11"/>
+                    <include name="US14_TC12"/>
+                    <include name="US14_TC13"/>
+                    <include name="US14_TC14"/>
+                    <include name="US14_TC15"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

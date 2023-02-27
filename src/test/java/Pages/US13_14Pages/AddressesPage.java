@@ -10,7 +10,7 @@ public class AddressesPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "(//*[text()='Add'])[2]") public WebElement shipAddressAddBtn;
+    @FindBy(xpath = "//*[@href='https://hubcomfy.com/my-account-2/edit-address/shipping/']") public WebElement shipAddressAddBtn;
     @FindBy(id = "shipping_first_name") public WebElement shipAddFirstName;
     @FindBy(id = "shipping_last_name") public WebElement shipAddLastName;
     @FindBy(xpath = "//*[@id='shipping_country']") public WebElement shipAddCountry;

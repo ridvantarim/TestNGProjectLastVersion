@@ -1,9 +1,10 @@
 package pages.US13_14Pages;
 
+import Utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utilities.Driver;
+
 
 public class AddressesPage {
     public AddressesPage() {

@@ -327,6 +327,15 @@ public class ReusableMethods {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", element);
     }
+    public static void dropdownMethod(WebElement dropdown, String sec) {
+        List<WebElement> options = dropdown.findElements(By.tagName("Option"));
+        for (WebElement eachOption : options) {
+            if (eachOption.getText().equals(sec)) {
+                eachOption.click();
+                return;
+            }
+        }
+    }
 
 
 }

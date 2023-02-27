@@ -328,5 +328,4 @@ public class ReusableMethods {
         js.executeScript("arguments[0].click();", element);
     }
 
-
 }

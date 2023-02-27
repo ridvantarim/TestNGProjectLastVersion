@@ -46,6 +46,15 @@ public class MyAccount {
     @FindBy(id = "password_2")
     public WebElement confirmPassword;
 
-    @FindBy (xpath = "//*[@href=\"https://hubcomfy.com/store-manager/\"]")
-    public WebElement storeManager;
+    //@FindBy (xpath = "//*[@href=\"https://hubcomfy.com/store-manager/\"]")
+    //public WebElement storeManager;
+
+    @FindBy(linkText = "//h2[.='My Account']")
+    public WebElement myaccounttext;
+
+    @FindBy(xpath = "//a[text()='My Account']")
+    public WebElement myaccount;
+
+    @FindBy(xpath = "//*[text()='Store Manager']")
+    public WebElement storemanager;
 }

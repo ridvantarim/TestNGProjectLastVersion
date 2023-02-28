@@ -119,7 +119,7 @@ public class US14Tests {
 
     @Test
     public void US14_TC06() {
-        Reporter.log("============== TC06 Short Description, yazılabilmeli  ==============");
+        Reporter.log("============== TC06 Description, yazılabilmeli  ==============");
         Reporter.log("VENDOR OLARAK GIRIS YAPILDI");
         ReusableMethods.clickWithTimeOut(homePage.myAccountBtn, 5);
         Reporter.log("MY ACCOUNT SAYFASINA GIDILDI");
@@ -237,7 +237,7 @@ public class US14Tests {
     }
     @Test
     public void US14_TC13() {
-        Reporter.log("============== TC14 Catalog visibility; Shop only, olarak seçilebilmeli ==============");
+        Reporter.log("============== TC13 Catalog visibility; Shop only, olarak seçilebilmeli ==============");
         Reporter.log("VENDOR OLARAK GIRIS YAPILDI");
         ReusableMethods.clickWithTimeOut(homePage.myAccountBtn, 5);
         Reporter.log("MY ACCOUNT SAYFASINA GIDILDI");
@@ -254,7 +254,7 @@ public class US14Tests {
 
     @Test
     public void US14_TC14() {
-        Reporter.log("============== TC13 Catalog visibility; Search results only, olarak seçilebilmeli ==============");
+        Reporter.log("============== TC14 Catalog visibility; Search results only, olarak seçilebilmeli ==============");
         Reporter.log("VENDOR OLARAK GIRIS YAPILDI");
         ReusableMethods.clickWithTimeOut(homePage.myAccountBtn, 5);
         Reporter.log("MY ACCOUNT SAYFASINA GIDILDI");
@@ -271,7 +271,7 @@ public class US14Tests {
 
     @Test
     public void US14_TC15() {
-        Reporter.log("============== TC13 Catalog visibility; Hidden, olarak seçilebilmeli ==============");
+        Reporter.log("============== TC15 Catalog visibility; Hidden, olarak seçilebilmeli ==============");
         Reporter.log("VENDOR OLARAK GIRIS YAPILDI");
         ReusableMethods.clickWithTimeOut(homePage.myAccountBtn, 5);
         Reporter.log("MY ACCOUNT SAYFASINA GIDILDI");

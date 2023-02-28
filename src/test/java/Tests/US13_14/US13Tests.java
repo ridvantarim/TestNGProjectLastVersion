@@ -131,9 +131,8 @@ public class US13Tests {
     }
 
     @Test
-    public void US13_TC08() { //First name, Last name, Country/Region, Street address, Town / City, State ve ZIP Code  girilmeli. Save Address butonuna tıklayarak Shipping Addrese (Teslimat Adresi) eklenmeli +
-
-        Reporter.log("============== TC07 Country / Region girilmeli ==============");
+    public void US13_TC08() {
+        Reporter.log("============== TC08 First name, Last name, Country/Region, Street address, Town / City, State ve ZIP Code  girilmeli. Save Address butonuna tıklayarak Shipping Addrese (Teslimat Adresi) eklenmeli ==============");
         Reporter.log("VENDOR OLARAK GIRIS YAPILDI");
         ReusableMethods.clickWithTimeOut(homePage.myAccountBtn, 5);
         Reporter.log("MY ACCOUNT SAYFASINA GIDILDI");
